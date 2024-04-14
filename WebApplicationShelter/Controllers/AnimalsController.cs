@@ -106,7 +106,7 @@ public class AnimalsController : ControllerBase
     }
     
     [HttpPost]
-    public IActionResult PostAnimal(Visit visit)
+    public IActionResult PostVisit(Visit visit)
     {
         var visitResult = DB.Animals.FirstOrDefault(visitFromDb => visitFromDb.Id == visit.Id);
         if (visitResult != null)
