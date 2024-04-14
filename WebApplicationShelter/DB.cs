@@ -13,8 +13,8 @@ public class DB
     
     public static List<Visit> Visits = new()
     {
-        new Visit { Date = "11.2.2023", Animal = DB.Animals[0], Description = "wizyta psa", Price = 123.2},
-        new Visit { Date = "12.8.2023", Animal = DB.Animals[1], Description = "wizyta puszka", Price = 500.3},
-        new Visit { Date = "10.3.2024", Animal = DB.Animals[0], Description = "wizyta kota", Price = 193.2}
+        new Visit { Id = 1, Date = "11.2.2023", Animal = DB.Animals[0], Description = "wizyta psa", Price = 123.2},
+        new Visit { Id = 2, Date = "12.8.2023", Animal = DB.Animals[1], Description = "wizyta puszka", Price = 500.3},
+        new Visit { Id = 3, Date = "10.3.2024", Animal = DB.Animals[0], Description = "wizyta kota", Price = 193.2}
     };
 }
